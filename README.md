@@ -13,7 +13,8 @@ A simple and smart app that lets you **schedule phone calls** and get **reminder
 
 ## 📸 Screenshots
 
-> *(Add your screenshots here)*  
+> ![WhatsApp Image 2025-04-14 at 14 29 13_5f1b51b9](https://github.com/user-attachments/assets/e96919ac-3075-4edb-9cbc-071bb7c24769)
+ 
 > Example: Scheduling a call, Notification Preview, Call in Action
 
 ## 🛠️ Built With
