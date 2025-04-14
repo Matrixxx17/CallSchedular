@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Call Scheduler",
+    "slug": "call-scheduler",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.callscheduler.app",
+      "infoPlist": {
+        "NSContactsUsageDescription": "This app needs access to your contacts to schedule calls."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.callscheduler.app",
+      "permissions": [
+        "android.permission.READ_CONTACTS",
+        "android.permission.CALL_PHONE",
+        "android.permission.WRITE_CONTACTS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-notifications",
+      "expo-contacts"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "52941310-5f1c-43ed-a3e0-23c3f47f64e9"
+      }
+    }
+  }
+}
